@@ -1,0 +1,165 @@
+{
+  "admins": [
+    {
+      "id": "admin-main",
+      "username": "admin",
+      "passwordHash": "$2b$10$3KzKCgJFsuiVZZ0b7dhBbeJs6ml3z2WTqc/XEWcOU9m2iuuXVGq6S"
+    }
+  ],
+  "categories": [
+    {
+      "id": "ls-ranks",
+      "name": "Ranks",
+      "slug": "ranks",
+      "gameMode": "lifesteal"
+    },
+    {
+      "id": "ls-coins",
+      "name": "Coins",
+      "slug": "coins",
+      "gameMode": "lifesteal"
+    },
+    {
+      "id": "ls-keys",
+      "name": "Crate Keys",
+      "slug": "crate-keys",
+      "gameMode": "lifesteal"
+    },
+    {
+      "id": "ls-cosmetics",
+      "name": "Cosmetics",
+      "slug": "cosmetics",
+      "gameMode": "lifesteal"
+    },
+    {
+      "id": "sv-ranks",
+      "name": "Ranks",
+      "slug": "ranks",
+      "gameMode": "survival"
+    },
+    {
+      "id": "sv-coins",
+      "name": "Coins",
+      "slug": "coins",
+      "gameMode": "survival"
+    },
+    {
+      "id": "sv-keys",
+      "name": "Crate Keys",
+      "slug": "crate-keys",
+      "gameMode": "survival"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-ls-vip",
+      "name": "VIP Rank [Lifesteal]",
+      "description": "Unlock special VIP prefix, access to /fly in lobby, and 5 exclusive kit claims per week.",
+      "price": 1,
+      "category": "ls-ranks",
+      "gameMode": "lifesteal",
+      "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-ls-champion",
+      "name": "Champion Rank [Lifesteal]",
+      "description": "Become a legend! Includes VIP perks plus /feed, /heal (60s cooldown), double coin multiplier, and 10 extra hearts on join.",
+      "price": 24.99,
+      "category": "ls-ranks",
+      "gameMode": "lifesteal",
+      "image": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "prod-ls-coins-10k",
+      "name": "10,000 Network Coins",
+      "description": "Get a hefty stack of network coins to spend on the Lifesteal economy and custom server shops.",
+      "price": 4.99,
+      "category": "ls-coins",
+      "gameMode": "lifesteal",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-ls-key-mythic",
+      "name": "3x Mythic Crate Keys",
+      "description": "Crack open the Mythic Crate at spawn! High chance of top-tier enchanted armor, legendary swords, and rare extra hearts.",
+      "price": 7.5,
+      "category": "ls-keys",
+      "gameMode": "lifesteal",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-ls-cosmetic-wings",
+      "name": "Vampire Dragon Wings",
+      "description": "Stunning animated custom model wings trail that makes you stand out. Purely cosmetic, looks absolutely premium.",
+      "price": 14.99,
+      "category": "ls-cosmetics",
+      "gameMode": "lifesteal",
+      "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-sv-vip",
+      "name": "VIP Rank [Survival]",
+      "description": "Includes a gold prefix, access to 3 homes (/sethome), 1.5x sell-multiplier, and access to the premium VIP survival kit.",
+      "price": 8.99,
+      "category": "sv-ranks",
+      "gameMode": "survival",
+      "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "prod-sv-overlord",
+      "name": "Overlord Rank [Survival]",
+      "description": "Ultimate Survival rank. Access to /fly, /nick, 15 homes, 3x sell-multiplier, custom virtual chest (/pv), and elite tier kit.",
+      "price": 29.99,
+      "category": "sv-ranks",
+      "gameMode": "survival",
+      "image": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "prod-sv-coins-50k",
+      "name": "50,000 Survival Economy Coins",
+      "description": "Jumpstart your claim or trade with other players. Stacks of survival currency deposited straight into your bank.",
+      "price": 9.99,
+      "category": "sv-coins",
+      "gameMode": "survival",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=300&auto=format&fit=crop",
+      "active": true,
+      "sortOrder": 1
+    }
+  ],
+  "orders": [
+    {
+      "username": "xd_suraj",
+      "discord": "xd_suraj",
+      "email": "shisirtharu@098",
+      "productId": "prod-ls-vip",
+      "productName": "VIP Rank [Lifesteal]",
+      "price": 1,
+      "gameMode": "lifesteal",
+      "categoryName": "Ranks",
+      "paymentStatus": "pending",
+      "id": "ord-QXKXKDY",
+      "date": "2026-07-12T05:55:47.092Z"
+    }
+  ],
+  "paymentSettings": {
+    "qrCodeUrl": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'><rect width='200' height='200' fill='white' rx='16'/><rect x='25' y='25' width='45' height='45' fill='black' rx='4'/><rect x='33' y='33' width='29' height='29' fill='white' rx='2'/><rect x='39' y='39' width='17' height='17' fill='black' rx='1'/><rect x='130' y='25' width='45' height='45' fill='black' rx='4'/><rect x='138' y='33' width='29' height='29' fill='white' rx='2'/><rect x='144' y='39' width='17' height='17' fill='black' rx='1'/><rect x='25' y='130' width='45' height='45' fill='black' rx='4'/><rect x='33' y='138' width='29' height='29' fill='white' rx='2'/><rect x='39' y='144' width='17' height='17' fill='black' rx='1'/><rect x='145' y='145' width='15' height='15' fill='black' rx='1'/><rect x='80' y='30' width='10' height='10' fill='black'/><rect x='100' y='25' width='15' height='10' fill='black'/><rect x='110' y='45' width='10' height='15' fill='black'/><rect x='85' y='65' width='15' height='10' fill='black'/><rect x='25' y='85' width='10' height='20' fill='black'/><rect x='45' y='100' width='20' height='10' fill='black'/><rect x='80' y='90' width='40' height='40' fill='black' rx='3'/><rect x='90' y='100' width='20' height='20' fill='white' rx='1'/><rect x='135' y='85' width='20' height='10' fill='black'/><rect x='155' y='105' width='15' height='15' fill='black'/><rect x='85' y='145' width='15' height='10' fill='black'/><rect x='110' y='160' width='10' height='15' fill='black'/><text x='100' y='188' font-family='sans-serif' font-size='11' font-weight='900' text-anchor='middle' fill='black' letter-spacing='1'>VOLEX PAY QR</text></svg>",
+    "paymentName": "Aetheria Payment Services",
+    "paymentNumber": "+1 (800) 555-0199",
+    "instructions": "Scan the QR code below using your mobile banking or payment app. Complete the payment of the exact amount specified, then take a screenshot of the transaction receipt. Join our Discord server and create a purchase ticket with your receipt to receive your item."
+  },
+  "supportTickets": []
+}

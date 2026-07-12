@@ -1,0 +1,6 @@
+{
+  "name": "Volex Store",
+  "description": "A premium, high-performance responsive web store for the Volex server network, including separate Survival and Lifesteal categories, QR-payment checkout workflow, Discord ticket instructions, future plugin integration REST APIs, and a secure real-time admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
